@@ -38,11 +38,7 @@ int main()
     setlocale(LC_ALL, "Russian");
 
     adress myAdress;    
-    //myAdress.city = "Екатеринубрг";
-    //myAdress.street = "Онуфриева";
-    //myAdress.building = 16;
-    //myAdress.apartment = 10;
-    //myAdress.zipcode = 620149;
+
 
     createAdress(myAdress);
 
