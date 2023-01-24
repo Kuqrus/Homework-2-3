@@ -25,7 +25,7 @@ void createAdress(struct adress&name) {
 
 void printAdress(struct adress name) {
     std::cout << "Город: " << name.city;
-    std::cout << "\nУлицу: " << name.street;
+    std::cout << "\nУлица: " << name.street;
     std::cout << "\nНомер дома: " << name.building;
     std::cout << "\nНомер квартиры: " << name.apartment;
     std::cout << "\nПочтовый индекс: " << name.zipcode;
